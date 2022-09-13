@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+}
+
+#type::after{
+    content: "/desktop";
+}
+
+
+
+
+/* media query always write bottom */
+@media only screen and (min-width:500px) and (max-width:700px) {
+    /* normal css code */
+    body{
+        background-color: red;
+    }
+    #type::after{
+        content: "laptop";
+    }
+    }
+
+    /*small device*/
+
+    @media only screen and (min-width:400px) and (max-width:500px) {
+        body{
+            background-color: blue;
+        }
+        #type::after{
+            content: "tab";
+        }
+        
+    }
+
+    @media only screen and (max-width:400px) {
+        body{
+            background-color: orange;
+        }
+        #type::after{
+            content: "mobile";
+        }
+        
+    }

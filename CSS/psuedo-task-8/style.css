@@ -1,0 +1,25 @@
+#box{
+    background-color: aqua;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+/*psuedo class*/
+#box{
+    background-color: red;
+}
+a:visited{
+    color: lightgray;
+}
+
+/* psuedo elements*/
+#psuedoelements{
+    font-size: 20px;
+}
+#psuedoelements::before{
+    content: "*****";
+}
+#psuedoelements::after{
+    content: "----";
+
+}

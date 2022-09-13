@@ -1,0 +1,44 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/712404.jpg);
+    background-size: cover;
+    align-items: center;
+}
+
+#f{
+    margin: 7rem;
+    background-color: black;
+    width: 60vh;
+    height: 60vh;
+    border-radius: 50px;
+}
+#v{
+    background-color: red;
+    width: 5rem;
+    border-radius: 5rem;
+}
+#o{
+    color: antiquewhite;
+
+}
+#c{
+    color: aliceblue;
+}
+#b{
+    color: aliceblue;
+}
+.box{
+    background-color: aliceblue;
+
+}
+#y{
+    border-radius: 5rem;
+}
+#s{
+  border-radius: 5rem;
+}
+
+
+
+
+
+

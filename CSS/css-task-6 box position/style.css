@@ -1,0 +1,64 @@
+#title{
+    font-size: 400;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&display=swap');
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+#title{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+h1{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+#flot {
+    background-color: brown;
+    float: right;
+    border: 1px solid gold;
+    text-align: right;
+
+    padding: 3rem;
+    margin: 3rem;
+}
+#relative{
+    background-color: rebeccapurple;
+    padding: 2rem;
+    margin: 2rem;
+    height: 2rem;
+}
+#relative p {
+    left: 2rem;
+    position: relative;
+    background-color: aliceblue;
+    border: 1% solid black;
+
+}
+#absolute{
+   background-color: rebeccapurple;
+   padding: 2rem;
+   margin: 2rem;
+   height: 8rem;
+}
+#absolute p {
+    background-color: aliceblue;
+    border: 1px solid black;
+
+    position: absolute;
+    top: 3rem;
+
+
+}
+#bi {
+    position: fixed;
+    bottom: 1rem;
+}
+#st {
+    position: sticky;
+    top: 3rem;
+}
+
+
+

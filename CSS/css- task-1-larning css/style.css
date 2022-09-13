@@ -1,0 +1,107 @@
+#title {
+    text-align: center;
+}
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Taj_Mahal_sunrise.jpg/300px-Taj_Mahal_sunrise.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+p{
+    text-align: justify;
+    background-color: yellow;
+}
+#p1{
+    position:absolute;
+    background-color: aqua;
+    z-index: 1000;
+    width: 90%;
+}
+#p2{
+    position:absolute;
+    margin: 5rem;
+    z-index: 1007;
+    width: 70%;
+    /* top: 20px; */
+}
+.boten{
+    background-color: blueviolet;
+    padding: 0.5;
+    color: white;
+    text-decoration: none;
+
+}
+
+li{
+    background-color: green;
+    margin: 10px;
+    padding: 10px;
+
+}
+#p3{
+    background-color: brown;
+    position:relative;
+    top: 310px;
+    width: 95%;
+
+}
+#p4{
+    background-color: red;
+    /* position: absolute; */
+    /* bottom: 3rem; */
+    position:relative;
+    top: 282px;
+    margin-left: 15px;
+    padding: 10px;
+    margin-right: 400px;
+
+}
+#p5{
+    background-color: red;
+    position:relative;
+    /* bottom:4px; */
+    /* right:4px; */
+    top: 270px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#span1{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#span2{
+    background-color: blueviolet;
+    padding:1opx;
+    position: relative;
+    /* bottom: 300px; */
+    top: 40px;
+     
+}
+
+#span3{
+    background-color: blueviolet;
+    position: relative;
+    top: 40px;
+}
+
+#aa{
+    background-color: orange;
+    padding: 10px;
+    position: relative;
+    top: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
